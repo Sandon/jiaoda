@@ -1,0 +1,41 @@
+.mod-notice {
+  width: 1000px;
+  margin: 80px auto 0;
+  padding-bottom: 190px;
+}
+.mod-notice .header {
+  margin-bottom: 40px;
+  line-height: 30px;
+  font-size: 18px;
+  border-bottom: 2px solid #000;
+}
+.mod-notice .content {
+  color: #808080;
+  padding: 0 10px;
+}
+.mod-notice li {
+  float: left;
+  width: 980px;
+  padding-bottom: 30px;
+}
+.mod-notice dt {
+  width: 68px;
+  height: 28px;
+  border: 1px solid #808080;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 10px;
+}
+.mod-notice dd {
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+.mod-notice dd span {
+  float: left;
+  width: 10px;
+}
+.mod-notice dd p {
+  float: left;
+  width: 970px;
+}

@@ -1,0 +1,57 @@
+@white: #fff;
+@black: #000;
+@headBgStart: #0987d1;
+@headBgEnd: #0071cf;
+@bg: #e6e6e6;
+@borderColor: #ccc;
+
+.mod-header{
+
+  .wrap{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .head{
+    background-color: @headBgEnd;
+    background: -webkit-linear-gradient(top, @headBgStart, @headBgEnd); /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(top,  @headBgStart,@headBgEnd); /* IE10+ */
+    background: linear-gradient(top,  @headBgStart,@headBgEnd); /* W3C */
+
+
+    .logo{
+      float: left;
+      width: 275px;
+      height: 78px;
+      margin-top: 11px;
+      overflow: hidden;
+    }
+    .date{
+      float: right;
+      margin-top: 65px;
+      color: @white;
+    }
+  }
+
+  .guide{
+    height: 35px;
+    line-height: 35px;
+    background-color: @bg;
+    border-bottom: 1px solid @borderColor;
+    color: @black;
+
+    .breadcrumb{
+      float: left;
+    }
+    .user{
+      float: right;
+    }
+
+    a{
+      color: @black;
+      text-decoration: none;
+    }
+  }
+
+}

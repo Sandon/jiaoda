@@ -1,0 +1,76 @@
+.mod-lists{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mod-lists li{
+    position: relative;
+    float: left;
+    width: 958px;
+    height: 108px;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    margin-top: 20px;
+}
+.mod-lists li:hover{
+    background-color: #fafafa;
+}
+.mod-lists dt{
+    float: left;
+    width: 192px;
+    height: 108px;
+}
+.mod-lists .basic{
+    float: left;
+    width: 330px;
+    height: 108px;
+    padding-left: 20px;
+    color: #b2b2b2;
+    overflow: hidden;
+}
+.mod-lists .basic div{
+    margin-bottom: 5px;
+}
+.mod-lists .basic .name{
+    margin-bottom: 35px;
+    font-size: 16px;
+    color: #000;
+}
+.mod-lists .tags{
+    float: left;
+    width: 416px;
+    overflow: hidden;
+}
+.mod-lists .tags div{
+    width: 416px;
+    height: 20px;
+    overflow: hidden;
+}
+.mod-lists .tags span{
+    float: left;
+    height: 18px;
+    padding: 0 6px;
+    border: 1px solid #0071cf;
+    margin-right: 7px;
+    line-height: 18px;
+    border-radius: 8px;
+}
+.mod-lists .tags .sports{
+    margin-bottom: 35px;
+}
+.mod-lists .tags .sports span{
+    background-color: #0071cf;
+    color: #fff;
+}
+.mod-lists .tags .other span{
+    background-color: #fff;
+    color: #0071cf;
+}
+.mod-lists a{
+    position: absolute;
+    display: block;
+    width: 998px;
+    height: 148px;
+    left: 0;
+    top: 0;
+}

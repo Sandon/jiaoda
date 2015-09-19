@@ -1,0 +1,148 @@
+.lf{
+  float: left;
+}
+.rg{
+  float: right;
+}
+.bigFont{
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.mod-detail {
+  width: 1000px;
+  margin: 30px auto 0;
+
+  .connected-carousels{
+    .lf;
+    width: 640px;
+    height: 448px;
+  }
+
+  .carousel{
+    position: relative;
+    overflow: hidden;
+
+    ul{
+      position: absolute;
+      width: 20000em;
+    }
+  }
+
+  .carousel-stage{
+    width: 640px;
+    height: 360px;
+
+    li{
+      .lf;
+      width: 640px;
+      height: 360px;
+      overflow: hidden;
+    }
+  }
+
+  .navigation{
+    width: 640px;
+    height: 69px;
+    position: relative;
+    margin-top: 17px;
+  }
+  .carousel-navigation{
+    width: 605px;
+    height: 69px;
+    margin: 0 17px 0 18px;
+
+    li{
+      .lf;
+      width: 112px;
+      height: 63px;
+      padding: 2px;
+      border: 1px solid #fff;
+      margin-right: 3px;
+      cursor: pointer;
+    }
+    li.active{
+      border-color: #000;
+    }
+  }
+
+  .trigger{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 13px;
+    height: 21px;
+    background-image: url("../images/trigger.png");
+  }
+  .next-navigation {
+    right: 0;
+    left: auto;
+    background-position: -17px -21px;
+  }
+  .trigger.inactive{
+    opacity: 0.5;
+  }
+
+  .txt-info {
+    float: right;
+    width: 300px;
+    color: #b3b3b3;
+
+    dt{
+      margin: 25px 0;
+      .bigFont;
+    }
+    dd{
+      line-height: 16px;
+    }
+    a{
+      color: #0071cf;
+    }
+    .title{
+      color: #000;
+      margin: 10px 0 15px;
+    }
+
+    .time{
+      padding: 3px 0 40px;
+      border-bottom: 1px solid #000;
+    }
+
+    .service{
+      height: 100px;
+      border-bottom: 1px solid #000;
+      overflow: hidden;
+
+      span{
+        float: left;
+        height: 18px;
+        padding: 0 6px;
+        border: 1px solid #0071cf;
+        margin-right: 7px;
+        border-radius: 8px;
+        color: #0071cf;
+        line-height: 18px;
+        text-align: center;
+      }
+    }
+
+    .intro{
+      height: 145px;
+      overflow: hidden;
+
+      p{
+        height: 72px;
+        overflow: hidden;
+      }
+    }
+
+    .price{
+      height: 44px;
+      padding: 0 15px;
+      line-height: 44px;
+      background-color: #e6f1fa;
+      .bigFont;
+    }
+  }
+}

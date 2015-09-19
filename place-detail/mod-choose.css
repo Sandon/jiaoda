@@ -1,0 +1,112 @@
+.lf {
+  float: left;
+}
+.mod-choose {
+  width: 1000px;
+  margin: 80px auto 0 auto;
+  color: #000;
+}
+.mod-choose .header {
+  height: 30px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.mod-choose .header ul {
+  width: 1500px;
+}
+.mod-choose .header li {
+  float: left;
+  width: 153px;
+  height: 30px;
+  padding-left: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+.mod-choose .header li.first {
+  width: 307px;
+}
+.mod-choose .content {
+  position: relative;
+  height: 410px;
+  overflow: hidden;
+}
+.mod-choose .content .items {
+  width: 300px;
+}
+.mod-choose .content .item {
+  float: left;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 1px;
+  line-height: 40px;
+  background-color: #f0f0f0;
+  color: #4c4c4c;
+}
+.mod-choose .content .item .item-name {
+  padding-left: 20px;
+}
+.mod-choose .content .item.selected .item-name {
+  background-color: #0071cf;
+  color: #fff;
+}
+.mod-choose .content .item-content {
+  display: none;
+  position: absolute;
+  width: 695px;
+  height: 407px;
+  border: 1px solid #0071cf;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+}
+.mod-choose .content .item-content ul {
+  width: 650px;
+  margin: 0 auto;
+}
+.mod-choose .content .item-content li {
+  float: left;
+  width: 650px;
+  height: 56px;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 56px;
+}
+.mod-choose .content .item-content div {
+  float: left;
+  width: 160px;
+  height: 30px;
+  padding: 13px 0 13px 15px;
+  line-height: 30px;
+}
+.mod-choose .content .item-content .btn {
+  width: 90px;
+  padding-left: 0;
+}
+.mod-choose .content .item-content .btn a {
+  display: block;
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  line-height: 30px;
+  background-color: #ff6b01;
+  color: #fff;
+  text-align: center;
+}
+.mod-choose .content .item-content .btn a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+.mod-choose .content .item-content .price {
+  color: #000;
+  font-weight: bold;
+}
+.mod-choose .content .item-content .date span {
+  display: block;
+  height: 15px;
+  line-height: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.mod-choose .content .item.selected .item-content {
+  display: block;
+}

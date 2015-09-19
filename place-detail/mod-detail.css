@@ -1,0 +1,135 @@
+.lf {
+  float: left;
+}
+.rg {
+  float: right;
+}
+.bigFont {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.mod-detail {
+  width: 1000px;
+  margin: 30px auto 0;
+}
+.mod-detail .connected-carousels {
+  float: left;
+  width: 640px;
+  height: 448px;
+}
+.mod-detail .carousel {
+  position: relative;
+  overflow: hidden;
+}
+.mod-detail .carousel ul {
+  position: absolute;
+  width: 20000em;
+}
+.mod-detail .carousel-stage {
+  width: 640px;
+  height: 360px;
+}
+.mod-detail .carousel-stage li {
+  float: left;
+  width: 640px;
+  height: 360px;
+  overflow: hidden;
+}
+.mod-detail .navigation {
+  width: 640px;
+  height: 69px;
+  position: relative;
+  margin-top: 17px;
+}
+.mod-detail .carousel-navigation {
+  width: 605px;
+  height: 69px;
+  margin: 0 17px 0 18px;
+}
+.mod-detail .carousel-navigation li {
+  float: left;
+  width: 112px;
+  height: 63px;
+  padding: 2px;
+  border: 1px solid #fff;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.mod-detail .carousel-navigation li.active {
+  border-color: #000;
+}
+.mod-detail .trigger {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 13px;
+  height: 21px;
+  background-image: url("../images/trigger.png");
+}
+.mod-detail .next-navigation {
+  right: 0;
+  left: auto;
+  background-position: -17px -21px;
+}
+.mod-detail .trigger.inactive {
+  opacity: 0.5;
+}
+.mod-detail .txt-info {
+  float: right;
+  width: 300px;
+  color: #b3b3b3;
+}
+.mod-detail .txt-info dt {
+  margin: 25px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.mod-detail .txt-info dd {
+  line-height: 16px;
+}
+.mod-detail .txt-info a {
+  color: #0071cf;
+}
+.mod-detail .txt-info .title {
+  color: #000;
+  margin: 10px 0 15px;
+}
+.mod-detail .txt-info .time {
+  padding: 3px 0 40px;
+  border-bottom: 1px solid #000;
+}
+.mod-detail .txt-info .service {
+  height: 100px;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+}
+.mod-detail .txt-info .service span {
+  float: left;
+  height: 18px;
+  padding: 0 6px;
+  border: 1px solid #0071cf;
+  margin-right: 7px;
+  border-radius: 8px;
+  color: #0071cf;
+  line-height: 18px;
+  text-align: center;
+}
+.mod-detail .txt-info .intro {
+  height: 145px;
+  overflow: hidden;
+}
+.mod-detail .txt-info .intro p {
+  height: 72px;
+  overflow: hidden;
+}
+.mod-detail .txt-info .price {
+  height: 44px;
+  padding: 0 15px;
+  line-height: 44px;
+  background-color: #e6f1fa;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}

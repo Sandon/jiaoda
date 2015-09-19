@@ -1,0 +1,39 @@
+@color: #0270cf;
+.mod-page {
+  width: 1000px;
+  height: 30px;
+  margin: 40px auto 65px auto;
+  text-align: center;
+  color: @color;
+
+  ul{
+    display: inline-block;
+  }
+
+  li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+    overflow: hidden;
+  }
+  li.current{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid @color;
+  }
+  li.next, li.prev, li.omit{
+    width: auto;
+  }
+
+  a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: @color;
+    text-align: center;
+  }
+}

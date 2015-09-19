@@ -2,81 +2,164 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>场地价格（门票制）</title>
+    <title>场地列表</title>
     <link rel="stylesheet" href="../lib/css/reset.css"/>
-
-    <link rel="stylesheet" href="../lib/datetimepicker/themes/classic.css"/>
-    <link rel="stylesheet" href="../lib/datetimepicker/themes/classic.date.css"/>
-    <link rel="stylesheet" href="../lib/datetimepicker/themes/classic.time.css"/>
-
     <script src="../lib/js/require.min.js"></script>
 </head>
 <body>
 
-
-    <!-- start-->
-    <link rel="stylesheet" href="mod-price-ticket.css"/>
-    <div class="mod-price-ticket">
-        <div class="header">
-            <div class="sport-type">
-                <span>运动项目</span>
-                <select name="" id="">
-                    <option value="1">请选择</option>
-                    <option value="1">羽毛球</option>
-                    <option value="1">篮球</option>
-                    <option value="1">足球</option>
-                </select>
-            </div>
-            <a class="back" href="#">返回列表</a>
-            <a class="save" href="#">保存</a>
-
-        </div>
+    <!--头部 start-->
+    <link rel="stylesheet" href="../common/css/mod-header.css"/>
+    <div class="mod-header">
         <div class="content">
-            <ul class="week fd-clr">
-                <li>星期六</li>
-                <li>星期日</li>
-                <li>星期一</li>
-                <li>星期二</li>
-                <li>星期三</li>
-                <li>星期四</li>
-                <li>星期五</li>
-                <li>节假日</li>
-            </ul>
-            <div class="places-warp">
-                <ul class="fd-clr places">
-                    <li class="row">
-                        <div class="item no">
-                            <span class="title">场次</span>
-                            <input class="value" type="text"/>
-                        </div>
-                        <div class="item">
-                            <span class="title">时间</span>
-                            <input type="text" class="time-start time-picker value"/>
-                            <span class="divider">至</span>
-                            <input type="text" class="time-end time-picker value"/>
-                        </div>
-                        <div class="item">
-                            <span class="title">线上价格</span>
-                            <input type="text" class="value"/>
-                        </div>
-                        <div class="item">
-                            <span class="title">线下价格</span>
-                            <input type="text" class="value"/>
-                        </div>
-                        <a class="close" href="#"></a>
-                    </li>
-
-                </ul>
-                <a class="add" href="#">新增场次</a>
+            <div class="head">
+                <div class="wrap">
+                    <div class="logo">
+                        <img src="../images/logo.png" alt=""/>
+                    </div>
+                    <div class="date">2015-9-10 10:00 星期四</div>
+                </div>
+            </div>
+            <div class="guide">
+                <div class="wrap">
+                    <div class="breadcrumb">上海交大&运动世界合作 > 场馆在线预订</div>
+                    <div class="user">张三XD0D0[<a href="#">退出</a>]</div>
+                </div>
             </div>
         </div>
     </div>
-    <script src="mod-price-ticket.js"></script>
-    <!-- end-->
+    <!--头部 end-->
 
+    <!--列表 start-->
+    <link rel="stylesheet" href="mod-lists.css"/>
+    <div class="mod-lists">
+        <div class="content">
+            <ul class="fd-clr">
+                <li>
+                    <dl>
+                        <dt><img src="../images/place.png" alt=""/></dt>
+                        <dd class="basic">
+                            <div class="name">上海交大体育馆</div>
+                            <div>地址：什么区什么路100号</div>
+                            <div>电话：5071-82265775</div>
+                        </dd>
+                        <dd class="tags">
+                            <div class="sports">
+                                <span>瑜伽</span>
+                                <span>乒乓球</span>
+                                <span>瑜伽</span>
+                                <span>乒乓球</span>
+                            </div>
+                            <div class="other">
+                                <span>储物</span>
+                                <span>租赁</span>
+                            </div>
+                        </dd>
+                    </dl>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="../images/place.png" alt=""/></dt>
+                        <dd class="basic">
+                            <div class="name">上海交大体育馆</div>
+                            <div>地址：什么区什么路100号</div>
+                            <div>电话：5071-82265775</div>
+                        </dd>
+                        <dd class="tags">
+                            <div class="sports">
+                                <span>瑜伽</span>
+                                <span>乒乓球</span>
+                                <span>瑜伽</span>
+                                <span>乒乓球</span>
+                            </div>
+                            <div class="other">
+                                <span>储物</span>
+                                <span>租赁</span>
+                            </div>
+                        </dd>
+                    </dl>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="../images/place.png" alt=""/></dt>
+                        <dd class="basic">
+                            <div class="name">上海交大体育馆</div>
+                            <div>地址：什么区什么路100号</div>
+                            <div>电话：5071-82265775</div>
+                        </dd>
+                        <dd class="tags">
+                            <div class="sports">
+                                <span>瑜伽</span>
+                                <span>乒乓球</span>
+                                <span>瑜伽</span>
+                                <span>乒乓球</span>
+                            </div>
+                            <div class="other">
+                                <span>储物</span>
+                                <span>租赁</span>
+                            </div>
+                        </dd>
+                    </dl>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="../images/place.png" alt=""/></dt>
+                        <dd class="basic">
+                            <div class="name">上海交大体育馆</div>
+                            <div>地址：什么区什么路100号</div>
+                            <div>电话：5071-82265775</div>
+                        </dd>
+                        <dd class="tags">
+                            <div class="sports">
+                                <span>瑜伽</span>
+                                <span>乒乓球</span>
+                                <span>瑜伽</span>
+                                <span>乒乓球</span>
+                            </div>
+                            <div class="other">
+                                <span>储物</span>
+                                <span>租赁</span>
+                            </div>
+                        </dd>
+                    </dl>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--列表 end-->
 
+    <!--分页 start-->
+    <link rel="stylesheet" href="mod-page.css"/>
+    <div class="mod-page">
+        <div class="content">
+            <ul class="fd-clr">
+                <li class="prev"><a href="#">上一页</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li class="current">3</li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li class="omit">...</li>
+                <li><a href="#">100</a></li>
+                <li class="next"><a href="#">下一页</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--分页 end-->
 
-
+    <!--底部 start-->
+    <link rel="stylesheet" href="../common/css/mod-footer.css"/>
+    <div class="mod-footer">
+        <div class="content">
+            <p>2014浙江万航信息科技有限公司&nbsp;&nbsp;All rights Reserved. </p>
+            <p>地址：地址地址地址地址地址地址地址地址地址&nbsp;&nbsp;邮箱：xxxxx@yyy.com</p>
+        </div>
+    </div>
+    <!--底部 end-->
 
 </body>
 </html>

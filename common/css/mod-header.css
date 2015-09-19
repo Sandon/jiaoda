@@ -1,0 +1,43 @@
+.mod-header .wrap {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+.mod-header .head {
+  background-color: #0071cf;
+  background: -webkit-linear-gradient(top, #0987d1, #0071cf);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(top, #0987d1, #0071cf);
+  /* IE10+ */
+  background: linear-gradient(top, #0987d1, #0071cf);
+  /* W3C */
+}
+.mod-header .head .logo {
+  float: left;
+  width: 275px;
+  height: 78px;
+  margin-top: 11px;
+  overflow: hidden;
+}
+.mod-header .head .date {
+  float: right;
+  margin-top: 65px;
+  color: #ffffff;
+}
+.mod-header .guide {
+  height: 35px;
+  line-height: 35px;
+  background-color: #e6e6e6;
+  border-bottom: 1px solid #cccccc;
+  color: #000000;
+}
+.mod-header .guide .breadcrumb {
+  float: left;
+}
+.mod-header .guide .user {
+  float: right;
+}
+.mod-header .guide a {
+  color: #000000;
+  text-decoration: none;
+}

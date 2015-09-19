@@ -1,0 +1,32 @@
+.mod-addr {
+  width: 1000px;
+  margin: 0 auto;
+  color: #000;
+}
+.mod-addr .header {
+  margin: 80px 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  border-bottom: 2px solid #000;
+}
+.mod-addr .content {
+  height: 360px;
+  overflow: hidden;
+}
+.mod-addr .map {
+  float: left;
+  width: 640px;
+  height: 360px;
+  margin-right: 60px;
+}
+.mod-addr .addr {
+  float: right;
+  width: 300px;
+}
+.mod-addr dt {
+  margin: 30px 0 25px;
+  font-size: 16px;
+}
+.mod-addr dd {
+  line-height: 18px;
+}
