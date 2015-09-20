@@ -1,0 +1,252 @@
+@img: "../images/";
+@blue: #0071cf;
+@white: #fff;
+@grey: #b2b2b2;
+.inlineBlock {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.boxSizing {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.float-l { float: left;}
+.float-r { float: right;}
+.mod-place-choose {
+  background: @white;
+  color: #000;
+  .content {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .progress {
+    height: 145px;
+    background: url("@{img}progress.png") no-repeat center center;
+  }
+  .guide {
+    .boxSizing;
+    height: 160px;
+    border: 1px solid #e6e6e6;
+    padding: 34px;
+    margin-bottom: 50px;
+    .left {
+      .float-l;
+      .boxSizing;
+      width: 30px;
+      height: 90px;
+      margin-right: 40px;
+      border: 2px solid #808080;
+      border-radius: 8px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .first {
+      text-indent: 2em;
+    }
+  }
+  .place-choose {
+    position: relative;
+    cursor: pointer;
+  }
+  .date {
+    margin-right: -1px;
+    li {
+      .float-l;
+      width: 142px;
+      height: 60px;
+      margin-right: 1px;
+      background-color: #f0f0f0;
+      color: #4c4c4c;
+    }
+    .day {
+      .float-l;
+      width: 50px;
+      margin-top: 8px;
+      margin-left: 20px;
+      em {
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+    .num {
+      .float-r;
+      display: inline-block;
+      width: 40px;
+      margin-right: 12px;
+      margin-top: 22px;
+      border: 1px solid #4c4c4c;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .selected {
+      color: @white;
+      background-color: @blue;
+      .num {
+        border-color: @white;
+      }
+    }
+  }
+  .place-time {
+    position: absolute;
+    display: none;
+    width: 998px;
+    height: 352px;
+    border: 1px solid #0071cf;
+    &.selected {
+      display: block;
+    }
+  }
+  .time {
+    overflow: hidden;
+    font-size: 8px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 16px;
+    li {
+      .float-l;
+      width: 62px;
+      height: 36px;
+      margin-left: 8px;
+      text-align: center;
+      background: url("@{img}time-pic.png") no-repeat center bottom;
+    }
+    .wide {
+      margin-left: 84px;
+    }
+  }
+  .place {
+    margin-right: 30px;
+    li {
+      .float-l;
+      width: 69px;
+      height: 40px;
+      border-right: 1px solid #808080;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      line-height: 40px;
+    }
+    .title{
+      width: 60px;
+      padding-left: 55px;
+      text-align: left;
+      border-bottom: none;
+    }
+    .disable {
+      background-color: #c6c6c6;
+    }
+    .selected {
+      color: @white;
+      background-color: @blue;
+    }
+  }
+  .order {
+    margin: 397px 0 140px;
+    .caption {
+      padding-bottom: 7px;
+      border-bottom: 2px solid #000;
+      font-size: 14px;
+      em {
+        font-size: 12px;
+        color: @grey;
+      }
+    }
+    .title {
+      height: 50px;
+      line-height: 50px;
+      padding-right: 40px;
+      border-bottom: 1px solid #000;
+      color: @grey;
+      .date {
+        margin: 0 290px 0 27px;
+      }
+      .place {
+        margin: 0 280px 0 250px;
+      }
+    }
+    .num {
+      padding-top: 25px;
+      border-top: 1px solid #000;
+    }
+  }
+  .detail {
+    min-height: 55px;
+    *height: 55px;
+    margin-bottom: -1px;
+    padding: 0 40px 0 20px;
+    line-height: 55px;
+    ul {
+      height: 54px;
+      line-height: 54px;
+      border-bottom: 1px solid @grey;
+      overflow: hidden;
+    }
+    li {
+      .float-l;
+      text-align: left;
+    }
+    .date {
+      width: 217px;
+      margin: 0 80px 0 6px;
+    }
+    .hour {
+      width: 298px;
+    }
+    .place {
+      width: 280px;
+      margin: 0;
+    }
+    .price {
+      width: 50px;
+      text-align: right;
+    }
+  }
+    .telephone {
+      width: 132px;
+      height: 30px;
+      padding: 0 12px;
+      margin: 0 4px 0 12px;
+      border: 1px solid @grey;
+      line-height: 30px;
+    }
+    .tips {
+      color: @grey;
+    }
+    .account-val {
+      .float-r;
+      font-size: 14px;
+      margin-top: 6px;
+      .val {
+        float: right;
+        width: 110px;
+        margin-top: -8px;
+        margin-left: 20px;
+        color: #ff6b00;
+        font-size: 22px;
+      }
+    }
+  .tele-tips {
+    position: absolute;
+    display: none;
+    margin-top: 8px;
+    margin-left: 20px;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #ff6b00;
+  }
+  .account {
+    .float-r;
+    width: 126px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff6b00;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 50px;
+  }
+}
