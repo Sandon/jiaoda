@@ -1,3 +1,105 @@
-.mod-pay{
+.lf{
+  float: left;
+}
+.rg{
+  float: right;
+}
 
+.mod-pay{
+  width: 1000px;
+  margin: 40px auto;
+  color: #000;
+
+  .process{
+    height: 70px;
+    padding-bottom: 55px;
+    border-bottom: 2px solid #000;
+    background: url("../images/pay-process.png") top center no-repeat;
+  }
+
+  .overview{
+    height: 56px;
+    padding: 20px 0;
+
+    .tip{
+      .lf;
+    }
+    .up{
+      font-size: 16px;
+      margin-bottom: 7px;
+    }
+    .down{
+      color: #0071d1;
+    }
+
+    .price{
+      .rg;
+      font-size: 14px;
+      line-height: 56px;
+      font-weight: bold;
+
+      span{
+        padding: 0 10px;
+        font-size: 20px;
+        color: #ff6b00;
+      }
+    }
+  }
+
+
+  .detail{
+    padding: 20px 0;
+    border: 1px solid #e6e6e6;
+    color: #808080;
+
+    dt,dd{
+      line-height: 18px;
+    }
+    .title{
+      .lf;
+      width: 80px;
+      padding-right: 06px;
+      text-align: right;
+    }
+    .value{
+      .lf;
+      width: 912px;
+      overflow: hidden;
+    }
+  }
+
+  .pay-type {
+    font-size: 14px;
+    .hd{
+      border-bottom: 2px solid #000;
+      margin-top: 38px;
+      line-height: 38px;
+      font-size: 18px;
+    }
+
+    .quick{
+      margin-top: 28px;
+    }
+    .platform{
+      margin: 48px 0 104px;
+    }
+  }
+
+  .btn-area{
+    padding-top: 36px;
+    border-top: 1px solid #000;
+
+    a{
+      .rg;
+      width: 126px;
+      height: 52px;
+      text-align: center;
+      line-height: 52px;
+      border-radius: 10px;
+      color: #fff;
+      background-color: #fe5802;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
 }

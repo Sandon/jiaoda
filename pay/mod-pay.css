@@ -1,0 +1,93 @@
+.lf {
+  float: left;
+}
+.rg {
+  float: right;
+}
+.mod-pay {
+  width: 1000px;
+  margin: 40px auto;
+  color: #000;
+}
+.mod-pay .process {
+  height: 70px;
+  padding-bottom: 55px;
+  border-bottom: 2px solid #000;
+  background: url("../images/pay-process.png") top center no-repeat;
+}
+.mod-pay .overview {
+  height: 56px;
+  padding: 20px 0;
+}
+.mod-pay .overview .tip {
+  float: left;
+}
+.mod-pay .overview .up {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+.mod-pay .overview .down {
+  color: #0071d1;
+}
+.mod-pay .overview .price {
+  float: right;
+  font-size: 14px;
+  line-height: 56px;
+  font-weight: bold;
+}
+.mod-pay .overview .price span {
+  padding: 0 10px;
+  font-size: 20px;
+  color: #ff6b00;
+}
+.mod-pay .detail {
+  padding: 20px 0;
+  border: 1px solid #e6e6e6;
+  color: #808080;
+}
+.mod-pay .detail dt,
+.mod-pay .detail dd {
+  line-height: 18px;
+}
+.mod-pay .detail .title {
+  float: left;
+  width: 80px;
+  padding-right: 06px;
+  text-align: right;
+}
+.mod-pay .detail .value {
+  float: left;
+  width: 912px;
+  overflow: hidden;
+}
+.mod-pay .pay-type {
+  font-size: 14px;
+}
+.mod-pay .pay-type .hd {
+  border-bottom: 2px solid #000;
+  margin-top: 38px;
+  line-height: 38px;
+  font-size: 18px;
+}
+.mod-pay .pay-type .quick {
+  margin-top: 28px;
+}
+.mod-pay .pay-type .platform {
+  margin: 48px 0 104px;
+}
+.mod-pay .btn-area {
+  padding-top: 36px;
+  border-top: 1px solid #000;
+}
+.mod-pay .btn-area a {
+  float: right;
+  width: 126px;
+  height: 52px;
+  text-align: center;
+  line-height: 52px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #fe5802;
+  font-size: 14px;
+  font-weight: bold;
+}
